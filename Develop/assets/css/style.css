@@ -1,18 +1,24 @@
- /*For all elements, padding and margin is included each elements' width
- and height measurements. Padding and margin for all elements are set to 0.*/
+ /*
+ For all elements, padding and margin is included each elements' width
+ and height measurements. Padding and margin for all elements are set to 0.
+ */
 * {
     box-sizing: border-box;
     padding: 0;
     margin: 0;
 }
 
- /*Changes the background color of the body element*/
+ /*
+ Changes the background color of the body element
+ */
 body {
     background-color: #d9dcd6;
 }
 
- /*Adds padding, changes font, changes font color, changes background-color
- for the .header class*/
+ /*
+ Adds padding, changes font, changes font color, changes background-color
+ for the .header class
+ */
 .header {
     padding: 20px;
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
@@ -20,24 +26,30 @@ body {
     color: #ffffff;
 }
 
- /*For the .header class and h1 elements, due to the
+ /*
+ For the .header class and h1 elements, due to the
  display: inline-block declaration, these elements can now sit next
  to eachother but also be given a width & height. Font size is also
- changed.*/
+ changed.
+ */
 .header h1 {
     display: inline-block;
     font-size: 48px;
 }
 
- /*For the .header class, h1 element, and .seo class, font color was changed.*/
+ /*
+ For the .header class, h1 element, and .seo class, font color was changed.
+ */
 .header h1 .seo {
     color: #d9dcd6;
 }
 
- /*For the .header class and div elements, 
+ /*
+ For the .header class and div elements, 
  this adds padding to the top, adds margin to the right, float: right 
  lets each element sit to the right of its container, font was changed,
- font-size was changed.*/
+ font-size was changed.
+ */
 .header div {
     padding-top: 15px;
     margin-right: 20px;
@@ -46,34 +58,44 @@ body {
     font-size: 20px;
 }
 
-/*For the .header class, div elements, and ul elements, specifies no specific
-type of list bullet points.*/
+/*
+For the .header class, div elements, and ul elements, specifies no specific
+type of list bullet points.
+*/
 .header div ul {
     list-style-type: none;
 }
 
-/*due to the display: inline-block declaration, the below elements
+/*
+due to the display: inline-block declaration, the below elements
 & classes can now sit next to eachother but also be given a width & height.
-Margin was added to the left*/
+Margin was added to the left
+*/
 .header div ul li {
     display: inline-block;
     margin-left: 25px;
 }
 
-/*a elements are given a color and no text decoration*/
+/*
+a elements are given a color and no text decoration
+*/
 a {
     color: #ffffff;
     text-decoration: none;
 }
 
-/*p elements are given a font size*/
+/*
+p elements are given a font size
+*/
 p {
     font-size: 16px;
 }
 
-/*.hero class is given a specified height & width, margin added to bottom,
+/*
+.hero class is given a specified height & width, margin added to bottom,
 added a background image, background-size: cover lets the image cover
-the whole background, background-position: center is self explainatory.*/
+the whole background, background-position: center is self explainatory.
+*/
 .hero {
     height: 800px;
     width: 100%;
@@ -83,31 +105,39 @@ the whole background, background-position: center is self explainatory.*/
     background-position: center;
 }
 
-/*.float-left class elements will sit to the left of their respective
-containers, margin added to the right of these elements.*/
+/*
+.float-left class elements will sit to the left of their respective
+containers, margin added to the right of these elements.
+*/
 .float-left {
     float: left;
     margin-right: 25px;
 }
 
-/*Pretty much the inverse of the above comment.*/
+/*
+Pretty much the inverse of the above comment.
+*/
 .float-right {
     float: right;
     margin-left: 25px;
 }
 
-/*For the .content class, width was set, the elements can sit next to eachother,
-margin added to the left.*/
+/*
+For the .content class, width was set, the elements can sit next to eachother,
+margin added to the left.
+*/
 .content {
     width: 75%;
     display: inline-block;
     margin-left: 20px;
 }
 
-/*Oh god. for the .benefits class: margin added to the right,
+/*
+Oh god. for the .benefits class: margin added to the right,
 padding to all sides, clear: both disables any floating elements
 from sitting to the right or left of elements in this class, width set, height
-set, font set, background-color set.*/
+set, font set, background-color set.
+*/
 .benefits {
     margin-right: 20px;
     padding: 20px;
@@ -119,29 +149,37 @@ set, font set, background-color set.*/
     background-color: #2589bd;
 }
 
-/*For the below classes, margin was added to the bottom, font-color was set.*/
+/*
+For the below classes, margin was added to the bottom, font-color was set.
+*/
 .benefit-lead, .benefit-brand, .benefit-cost {
     margin-bottom: 32px;
     color: #ffffff;
 }
 
-/*For the below classes and h3 elements, Margin was added to the bottom,
-amd text was centered.*/
+/*
+For the below classes and h3 elements, Margin was added to the bottom,
+amd text was centered.
+*/
 .benefit-lead, .benefit-brand, .benefit-cost, h3 {
     margin-bottom: 10px;
     text-align: center;
 }
 
-/*For the below classes and img elements, each element takes up it's own line,
-margin was set to 10px for top and bottom, and auto for left and right.*/
+/*
+For the below classes and img elements, each element takes up it's own line,
+margin was set to 10px for top and bottom, and auto for left and right.
+*/
 .benefit-lead, .benefit-brand, .benefit-cost, img {
     display: block;
     margin: 10px auto;
     max-width: 150px;
 }
 
-/*For the below classes, margin bottom was added, padding on all sides was added,
-height was set, font was set, background-color was set, font color was set.*/
+/*
+For the below classes, margin bottom was added, padding on all sides was added,
+height was set, font was set, background-color was set, font color was set.
+*/
 .search-engine-optimization, .online-reputation-management, .social-media-marketing {
     margin-bottom: 20px;
     padding: 50px;
@@ -151,20 +189,26 @@ height was set, font was set, background-color was set, font color was set.*/
     color: #ffffff;
 }
 
-/*For the below classes and img elements, max height was set.*/
+/*
+For the below classes and img elements, max height was set.
+*/
 .search-engine-optimization, .online-reputation-management, .social-media-marketing, img {
     max-height: 200px;
 }
 
-/*For the below classes and h2 elements, margin bottom and font size was set.*/
+/*
+For the below classes and h2 elements, margin bottom and font size was set.
+*/
 .search-engine-optimization, .online-reputation-management, .social-media-marketing, h2 {
     margin-bottom: 20px;
     font-size: 36px;
 }
 
-/*For the .footer class, padding was set for all sides, clear: both means
+/*
+For the .footer class, padding was set for all sides, clear: both means
 no other elements can float next to elements in this class, font was set,
-text was centered.*/
+text was centered.
+*/
 .footer {
     padding: 30px;
     clear: both;
@@ -172,7 +216,9 @@ text was centered.*/
     text-align: center;
 }
 
-/*For the .footer class and h2 elements, font-size was set.*/
+/*
+For the .footer class and h2 elements, font-size was set.
+*/
 .footer h2 {
     font-size: 20px;
 }
